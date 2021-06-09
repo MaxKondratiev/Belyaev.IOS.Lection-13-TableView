@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Foundation
 
 class ViewController: UIViewController {
 //--OUTLETS--//
@@ -29,6 +28,8 @@ class ViewController: UIViewController {
         myTableView.delegate = self
         myTableView.dataSource = self
         myTextField.delegate = self
+        print("for commit change")
+        
     }
     
     
